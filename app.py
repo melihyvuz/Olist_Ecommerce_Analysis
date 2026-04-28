@@ -20,11 +20,11 @@ st.markdown("""
 @st.cache_data
 def load_all_data():
     try:
-        orders = pd.read_csv('archive-2/olist_orders_dataset.csv')
-        items = pd.read_csv('archive-2/olist_order_items_dataset.csv')
-        products = pd.read_csv('archive-2/olist_products_dataset.csv')
-        customers = pd.read_csv('archive-2/olist_customers_dataset.csv')
-        payments = pd.read_csv('archive-2/olist_order_payments_dataset.csv')
+        orders = pd.read_csv('data/olist_orders_dataset.csv')
+        items = pd.read_csv('data/olist_order_items_dataset.csv')
+        products = pd.read_csv('data/olist_products_dataset.csv')
+        customers = pd.read_csv('data/olist_customers_dataset.csv')
+        payments = pd.read_csv('data/olist_order_payments_dataset.csv')
         
         orders['order_approved_at'] = pd.to_datetime(orders['order_approved_at'])
         orders = orders.dropna(subset=['order_approved_at'])
