@@ -55,4 +55,4 @@ This project involves analyzing real-world data from **Olist**, the largest e-co
 * **Database Logic:** Relational data mapping (SQL logic)
 
 ## 📞 Contact / İletişim
-**Melih Yavuz** *Management Information Systems Student* [(https://www.linkedin.com/in/melih-yvuz/)] | [melih_yvuz@hotmail.com]
+**Melih Yavuz** *Management Information Systems Student* https://www.linkedin.com/in/melih-yvuz/ | melih_yvuz@hotmail.com
